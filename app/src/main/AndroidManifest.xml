@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sunit.onlineticketbd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnlineTicketBD">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
+        <activity android:name=".Movietheater" />
+        <activity android:name=".Hotelbooking" />
+        <activity android:name=".Flight" />
+        <activity android:name=".LaunchTicket" />
+        <activity android:name=".Rail" />
+        <activity android:name=".Shohoz" />
+        <activity android:name=".Contact" />
+        <activity android:name=".No_internet" />
+        <activity android:name=".Movie" />
+        <activity android:name=".Hotel" />
+        <activity android:name=".Plane" />
+        <activity android:name=".Launch" />
+        <activity android:name=".Train" />
+        <activity android:name=".Bus" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

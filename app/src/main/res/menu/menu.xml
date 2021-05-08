@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Contact Us"
+        android:id="@+id/title1"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="Rate Us"
+        android:id="@+id/title2"
+        app:showAsAction="never"/>
+    <item
+        android:title="Share"
+        android:id="@+id/title3"
+        app:showAsAction="never"/>
+
+</menu>
